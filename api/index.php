@@ -5,9 +5,6 @@
     echo("<a href='/Exe2.pdf'>Rapport-Exe2</a>");
     ?>
 
-<?php
-// أي كود PHP لي بغيت يتنفذ قبل HTML يقدر يكون هنا
-?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
