@@ -428,11 +428,11 @@ html{
             <p>Maitrise des boucles et tableaux .</p>
             <div class="card-buttons">
                 <a href="ex1.php" class="btn-main">Exercice 1 </a><h3>➩</h3>
-                <a href="../public/Exe1.pdf" class="btn-sub">Rapport</a>
+                <a href="/Exe1.pdf" class="btn-sub">Rapport</a>
           </div>
           <div class="card-buttons">
                 <a href="ex2.php" class="btn-main">Exercice 2 </a><h3>➩</h3>
-                <a href="../public/Exe1.pdf" class="btn-sub">Rapport</a>
+                <a href="/Exe1.pdf" class="btn-sub">Rapport</a>
           </div>
           </div>
 
