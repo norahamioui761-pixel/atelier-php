@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .projects-hero {
+    min-height: 100vh;
+    padding: 120px 5% 50px;
+    background: linear-gradient(rgba(0, 0, 0, 0.90), rgba(0, 0, 0, 0.90)), 
+                url('background.jpeg'); /* حطي سمية صورة الكود البنفسجي هنا */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+}
+
+/* العنوان الكبير */
+.hero-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.hero-title h1 {
+    font-size: 4rem;
+    color: #ecbbec;
+    letter-spacing: 5px;
+    line-height: 1.1;
+}
+
+.hero-title h1 span {
+    color: #d112d1;
+    text-shadow: 0 0 20px #d112d1;
+}
+
+.underline {
+    width: 80px;
+    height: 5px;
+    background: #d112d1;
+    margin: 20px auto;
+    box-shadow: 0 0 15px #d112d1;
+}
+
+/* تنظيم الكاردات */
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+    max-width: 1200px;
+    flex-direction: row;
+    
+}
+
+.project-card {
+    background: rgba(26, 5, 29, 0.8); /* خلفية غامقة وشفافة شوية */
+    border: 1px solid rgba(209, 18, 209, 0.3);
+    border-radius: 20px;
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    transition: all 0.4s ease;
+
+}
+
+/* تأثير الـ Hover */
+.project-card:hover {
+    transform: translateY(-15px);
+    border-color: #d112d1;
+    box-shadow: 0 0 30px rgba(209, 18, 209, 0.3);
+    background: rgba(26, 5, 29, 0.95);
+}
+
+.card-icon img {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 50%;
+    mix-blend-mode: lighten;
+    border: 2px solid #d112d1;
+    box-shadow: 0 0 15px rgba(209, 18, 209, 0.6);
+    object-fit: contain;
+    padding: 5px;
+}
+
+.project-card h3 {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    color: #ccc;
+    font-size: 0.9rem;
+    margin-bottom: 30px;
+}
+
+/* الأزرار */
+.card-buttons {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 5px;
+}
+
+.btn-main {
+    flex: 1;
+    background: #d112d1;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 0.85rem;
+}
+
+.btn-sub {
+    flex: 1;
+    border: 1px solid #d112d1;
+    color: #d112d1;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 0.85rem;
+}
+
+.btn-main:hover {
+    box-shadow: 0 0 15px #d112d1;
+}
+html{
+    scroll-behavior: smooth;
+}
+.card-buttons h3{
+    margin: 0;
+    align-self: center;
+}
+    </style>
+</head>
+<body>
+    
+
+<section id="projects" class="projects-hero">
+    <div class="hero-title">
+        <h1> &lt; LES TD /&gt; </h1>
+        <div class="underline"></div>
+    </div>
+
+    <div class="projects-container">
+        <div class="project-card">
+            <div class="card-icon">
+                <img src="logo.jpeg" alt="PHP">
+            </div>
+            <h3>  <b> TD :</b></h3>
+            <div class="card-buttons">
+                <a href="../api/td1.php" class="btn-main">Exercice 1 </a><h3>➩</h3>
+                <a href="" class="btn-sub">Rapport</a>
+          </div>
+      </div>
+      </div>
+      <div class="projects-container">
+        <div class="project-card">
+            <div class="card-icon">
+                <img src="logo.jpeg" alt="PHP">
+            </div>
+            <h3>  <b> TD :</b></h3>
+            <div class="card-buttons">
+                <a href="../api/td2.php" class="btn-main">Exercice 2</a><h3>➩</h3>
+                <a href="" class="btn-sub">Rapport</a>
+          </div>
+      </div>
+      </div>
+      <div class="projects-container">
+        <div class="project-card">
+            <div class="card-icon">
+                <img src="logo.jpeg" alt="PHP">
+            </div>
+            <h3>  <b> TD :</b></h3>
+            <div class="card-buttons">
+                <a href="../api/td3.php" class="btn-main">Exercice 3</a><h3>➩</h3>
+                <a href="" class="btn-sub">Rapport</a>
+          </div>
+      </div>
+      </div>
+      <div class="projects-container">
+        <div class="project-card">
+            <div class="card-icon">
+                <img src="logo.jpeg" alt="PHP">
+            </div>
+            <h3>  <b> TD :</b></h3>
+            <div class="card-buttons">
+                <a href="../api/td4.php" class="btn-main">Exercice 4 </a><h3>➩</h3>
+                <a href="" class="btn-sub">Rapport</a>
+          </div>
+      </div>
+      </div>
+      <div class="projects-container">
+        <div class="project-card">
+            <div class="card-icon">
+                <img src="logo.jpeg" alt="PHP">
+            </div>
+            <h3>  <b> TD :</b></h3>
+            <div class="card-buttons">
+                <a href="../api/td5.php" class="btn-main">Exercice 5 </a><h3>➩</h3>
+                <a href="" class="btn-sub">Rapport</a>
+          </div>
+      </div>
+      </div>
+      <div class="projects-container">
+        <div class="project-card">
+            <div class="card-icon">
+                <img src="logo.jpeg" alt="PHP">
+            </div>
+            <h3>  <b> TD1 :</b></h3>
+            <div class="card-buttons">
+                <a href="../api/td6.php" class="btn-main">Exercice 6</a><h3>➩</h3>
+                <a href="" class="btn-sub">Rapport</a>
+          </div>
+      </div>
+      </div>
+      <div class="projects-container">
+        <div class="project-card">
+            <div class="card-icon">
+                <img src="logo.jpeg" alt="PHP">
+            </div>
+            <h3>  <b> TD1 :</b></h3>
+            <div class="card-buttons">
+                <a href="../api/td7.php" class="btn-main">Exercice 7 </a><h3>➩</h3>
+                <a href="" class="btn-sub">Rapport</a>
+          </div>
+      </div>
+      </div>
+
+      </section>    
