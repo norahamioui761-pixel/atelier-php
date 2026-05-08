@@ -435,7 +435,7 @@ html{
                 <a href="/Exe1.pdf" class="btn-sub">Rapport</a>
           </div> 
            <div class="card-buttons">
-                <a href="result.html" class="btn-main">les TD</a><h3>➩</h3>
+                <a href="api/result.html" class="btn-main">les TD</a>
           </div>
           </div>
 
