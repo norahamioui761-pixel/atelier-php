@@ -433,6 +433,9 @@ html{
           <div class="card-buttons">
                 <a href="ex2.php" class="btn-main">Exercice 2 </a><h3>➩</h3>
                 <a href="/Exe1.pdf" class="btn-sub">Rapport</a>
+          </div> 
+           <div class="card-buttons">
+                <a href="result.html" class="btn-main">les TD</a><h3>➩</h3>
           </div>
           </div>
 
