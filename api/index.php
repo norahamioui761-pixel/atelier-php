@@ -478,7 +478,7 @@ html{
             <h3>Atelier 4</h3>
             <p> PHP</p>
             <div class="card-buttons">
-                <a href="#" class="btn-main">GitHup</a><h3>➩</h3>
+                <a href="https://github.com/norahamioui761-pixel/atelier-4.git" class="btn-main">GitHup</a><h3>➩</h3>
                 <a href="#" class="btn-sub">Rapport </a>
             </div>
             
@@ -491,7 +491,7 @@ html{
             <h3>Atelier 5</h3>
             <p> PHP</p>
             <div class="card-buttons">
-                <a href="#" class="btn-main">GitHup</a><h3>➩</h3>
+                <a href="https://github.com/norahamioui761-pixel/atelier-5.git" class="btn-main">GitHup</a><h3>➩</h3>
                 <a href="#" class="btn-sub">Rapport </a>
             </div>
             
@@ -533,7 +533,7 @@ html{
             <h3>Atelier 7</h3>
             <p> PHP</p>
             <div class="card-buttons">
-                <a href="#" class="btn-main">GitHup</a><h3>➩</h3>
+                <a href="https://github.com/norahamioui761-pixel/atelier-7.git" class="btn-main">GitHup</a><h3>➩</h3>
                 <a href="#" class="btn-sub">Rapport </a>
             </div>
             
@@ -546,7 +546,7 @@ html{
             <h3>Atelier 8</h3>
             <p> PHP</p>
             <div class="card-buttons">
-                <a href="#" class="btn-main">GitHup</a><h3>➩</h3>
+                <a href="https://github.com/norahamioui761-pixel/atelier-8.git" class="btn-main">GitHup</a><h3>➩</h3>
                 <a href="#" class="btn-sub">Rapport </a>
             </div>
             
