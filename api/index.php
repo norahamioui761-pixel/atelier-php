@@ -11,7 +11,7 @@
 
   background: 
     linear-gradient(rgba(0,0,0,0.80), rgba(0,0,0,0.80)), 
-    url("background.jpeg");
+    url("../public/background.jpeg");
 
   background-size: cover;
   background-position: center;
@@ -149,7 +149,7 @@
     border: 1px solid #3d1044;
     border-radius: 10px;
     overflow: hidden;
-    width: 250px;
+    width: 300px;
     box-shadow: 0 20px 40px rgba(0,0,0,0.6);
 }
 
@@ -233,7 +233,7 @@ h1{
     min-height: 100vh;
     padding: 120px 5% 50px;
     background: linear-gradient(rgba(0, 0, 0, 0.90), rgba(0, 0, 0, 0.90)), 
-                url('background.jpeg'); /* حطي سمية صورة الكود البنفسجي هنا */
+                url('../public/background.jpeg'); /* حطي سمية صورة الكود البنفسجي هنا */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -387,7 +387,7 @@ html{
         <div class="profile-card">
             <div class="card-header">Mon profil <3 </div>
             <div class="card-body">
-                <img src="c:\Users\Lenovo\Desktop\atelier-php\public\my image.jpeg" alt="Profile">
+                <img src="../public/my image.jpeg" alt="Profile">
             </div>
         </div>
     </div>
@@ -422,7 +422,7 @@ html{
     <div class="projects-container">
         <div class="project-card">
             <div class="card-icon">
-                <img src="logo.jpeg" alt="PHP">
+                <img src="../public/logo.jpeg" alt="PHP">
             </div>
             <h3>  <b>Atelier 1 :</b></h3>
             <p>Maitrise des boucles et tableaux .</p>
@@ -441,7 +441,7 @@ html{
 
         <div class="project-card">
             <div class="card-icon">
-                <img src="logo.jpeg" alt="PHP">
+                <img src="../public/logo.jpeg" alt="PHP">
             </div>
             <h3>Atelier 2</h3>
             <p> PHP</p>
@@ -460,7 +460,7 @@ html{
 
     <div class="project-card">
             <div class="card-icon">
-                <img src="logo.jpeg" alt="PHP">
+                <img src="../public/logo.jpeg" alt="PHP">
             </div>
             <h3>Atelier 3</h3>
             <p> PHP</p>
@@ -473,12 +473,12 @@ html{
 
     <div class="project-card">
             <div class="card-icon">
-                <img src="logo.jpeg" alt="PHP">
+                <img src="../public/logo.jpeg" alt="PHP">
             </div>
             <h3>Atelier 4</h3>
             <p> PHP</p>
             <div class="card-buttons">
-                <a href="exercice6" class="btn-main">Exercice1</a><h3>➩</h3>
+                <a href="https://github.com/norahamioui761-pixel/atelier-4.git" class="btn-main">GitHup</a><h3>➩</h3>
                 <a href="#" class="btn-sub">Rapport </a>
             </div>
             
@@ -486,12 +486,12 @@ html{
 
     <div class="project-card">
             <div class="card-icon">
-                <img src="logo.jpeg" alt="PHP">
+                <img src="../public/logo.jpeg" alt="PHP">
             </div>
             <h3>Atelier 5</h3>
             <p> PHP</p>
             <div class="card-buttons">
-                <a href="exercice7" class="btn-main">Exercice1</a><h3>➩</h3>
+                <a href="https://github.com/norahamioui761-pixel/atelier-5.git" class="btn-main">GitHup</a><h3>➩</h3>
                 <a href="#" class="btn-sub">Rapport </a>
             </div>
             
@@ -499,7 +499,7 @@ html{
 
     <div class="project-card">
             <div class="card-icon">
-                <img src="logo.jpeg" alt="PHP">
+                <img src="../public/logo.jpeg" alt="PHP">
             </div>
             <h3>Atelier 6</h3>
             <p> PHP</p>
@@ -525,6 +525,43 @@ html{
             </div>
             
         </div>
+    </div>
+    <div class="project-card">
+            <div class="card-icon">
+                <img src="../public/logo.jpeg" alt="PHP">
+            </div>
+            <h3>Atelier 7</h3>
+            <p> PHP</p>
+            <div class="card-buttons">
+                <a href="exercice7" class="btn-main">Exercice1</a><h3>➩</h3>
+                <a href="#" class="btn-sub">Rapport </a>
+            </div>
+            
+    </div>
+    <div class="project-card">
+            <div class="card-icon">
+                <img src="../public/logo.jpeg" alt="PHP">
+            </div>
+            <h3>Atelier 8</h3>
+            <p> PHP</p>
+            <div class="card-buttons">
+                <a href="exercice7" class="btn-main">Exercice1</a><h3>➩</h3>
+                <a href="#" class="btn-sub">Rapport </a>
+            </div>
+            
+    </div>
+
+     <div class="project-card">
+            <div class="card-icon">
+                <img src="../public/logo.jpeg" alt="PHP">
+            </div>
+            <h3>My Projet</h3>
+            <p> PHP</p>
+            <div class="card-buttons">
+                <a href="https://github.com/norahamioui761-pixel/projet.git" class="btn-main">Voir le projet</a>
+                
+            </div>
+            
     </div>
 </section>
 
