@@ -491,7 +491,7 @@ html{
             <h3>Atelier 5</h3>
             <p> PHP</p>
             <div class="card-buttons">
-                <a href="exercice7" class="btn-main">Exercice1</a><h3>➩</h3>
+                <a href="#" class="btn-main">GitHup</a><h3>➩</h3>
                 <a href="#" class="btn-sub">Rapport </a>
             </div>
             
@@ -504,23 +504,23 @@ html{
             <h3>Atelier 6</h3>
             <p> PHP</p>
             <div class="card-buttons">
-                <a href="exercice8" class="btn-main">Exercice1</a><h3>➩</h3>
+                <a href="exercice9.php" class="btn-main">Exercice1</a><h3>➩</h3>
                 <a href="#" class="btn-sub">Rapport </a>
             </div>
             <div class="card-buttons">
-                <a href="exercice9" class="btn-main">Exercice2</a><h3>➩</h3>
+                <a href="exercice10.php" class="btn-main">Exercice2</a><h3>➩</h3>
                 <a href="#" class="btn-sub">Rapport</a>
             </div>
             <div class="card-buttons">
-                <a href="exercice10" class="btn-main">Exercice3</a><h3>➩</h3>
+                <a href="exercice11.php" class="btn-main">Exercice3</a><h3>➩</h3>
                 <a href="#" class="btn-sub">Rapport</a>
             </div>
             <div class="card-buttons">
-                <a href="exercice11" class="btn-main">Exercice4</a><h3>➩</h3>
+                <a href="exercice12.php" class="btn-main">Exercice4</a><h3>➩</h3>
                 <a href="#" class="btn-sub">Rapport</a>
             </div>
             <div class="card-buttons">
-                <a href="exercice12" class="btn-main">Exercice5</a><h3>➩</h3>
+                <a href="exercice13.php" class="btn-main">Exercice5</a><h3>➩</h3>
                 <a href="#" class="btn-sub">Rapport</a>
             </div>
             
