@@ -478,7 +478,7 @@ html{
             <h3>Atelier 4</h3>
             <p> PHP</p>
             <div class="card-buttons">
-                <a href="exercice6" class="btn-main">Exercice1</a><h3>➩</h3>
+                <a href="#" class="btn-main">GitHup</a><h3>➩</h3>
                 <a href="#" class="btn-sub">Rapport </a>
             </div>
             
@@ -525,6 +525,32 @@ html{
             </div>
             
         </div>
+
+        <div class="project-card">
+            <div class="card-icon">
+                <img src="logo.jpeg" alt="PHP">
+            </div>
+            <h3>Atelier 7</h3>
+            <p> PHP</p>
+            <div class="card-buttons">
+                <a href="#" class="btn-main">GitHup</a><h3>➩</h3>
+                <a href="#" class="btn-sub">Rapport </a>
+            </div>
+            
+    </div>
+
+    <div class="project-card">
+            <div class="card-icon">
+                <img src="logo.jpeg" alt="PHP">
+            </div>
+            <h3>Atelier 8</h3>
+            <p> PHP</p>
+            <div class="card-buttons">
+                <a href="#" class="btn-main">GitHup</a><h3>➩</h3>
+                <a href="#" class="btn-sub">Rapport </a>
+            </div>
+            
+    </div>
     </div>
 </section>
 
